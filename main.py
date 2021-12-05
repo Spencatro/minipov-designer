@@ -206,7 +206,7 @@ def main():
             QColor(0, 0, 0) for _ in range(PAINT_WIDTH)
         ] for _ in range(8)
     ]
-    fill_grid_with_rainbow(color_grid)
+    # fill_grid_with_rainbow(color_grid)
 
     app = QtWidgets.QApplication(sys.argv)
     window = App(color_grid)
